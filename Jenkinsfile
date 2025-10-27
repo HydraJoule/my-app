@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_HUB_REPO = 'dhruv152005/testapp'
+        DOCKER_HUB_REPO = 'hydrajoule/myapp'
         IMAGE_TAG = "${BUILD_NUMBER}"
     }
 
